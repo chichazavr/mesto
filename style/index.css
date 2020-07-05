@@ -13,11 +13,18 @@
 @import url('../blocks/footer/footer.css');
 
 
-.edit-form {
-    
+
+
+.popup {
+    display: none;
 }
 
-.edit-form__overlay {
+.popup_opened {
+    display: block;
+}
+
+
+.popup__overlay {
     width:100%;
     height:100%;
 
@@ -30,8 +37,7 @@
     left:0;
 }
 
-
-.edit-form__form {
+.popup__container {
     margin: auto;
 
     width: 430px;
@@ -50,9 +56,7 @@
     border-radius: 10px;
 }
 
-
-
-.edit-form__title {
+.popup__title {
     margin: 0;
 
     font-weight: 900;
@@ -60,7 +64,7 @@
     line-height: 29px;
 }
 
-.edit-form__submit {
+.popup__submit {
     margin: 0 auto;
 
     width: 358px;
@@ -68,6 +72,9 @@
 
     background-color: black;
     border-radius: 2px;
+}
+
+.popup__submit-text {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -75,7 +82,7 @@
     color: white;
 }
 
-.edit-form__container {
+.popup__section {
     margin-top: 34px;
     margin-left: 36px;
 }
