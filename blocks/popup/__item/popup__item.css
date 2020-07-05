@@ -1,0 +1,34 @@
+
+
+
+.popup__item {
+
+}
+
+.popup__item::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+
+    color: black;
+}
+
+.popup__item::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 17px;
+
+    color: black;
+}
+
+.popup__item::-moz-placeholder-input-placeholder {
+    font-size: 14px;
+    line-height: 17px;
+
+    color: black;
+}
+
+.popup__item::-ms-input-placeholder-input-placeholder {
+    font-size: 14px;
+    line-height: 17px;
+
+    color: black;
+}

@@ -13,10 +13,4 @@
     background-position: center;
     
     cursor: pointer;
-
-    transition: 0.35s;
-}
-
-.profile__edit-button:hover {
-    opacity: 0.6;
 }

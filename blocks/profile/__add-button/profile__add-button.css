@@ -14,10 +14,4 @@
     background-position: center;
 
     cursor: pointer;
-
-    transition: 0.35s;
-}
-
-.profile__add-button:hover {
-    opacity: 0.6;
 }

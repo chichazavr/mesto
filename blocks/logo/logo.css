@@ -2,11 +2,7 @@
 @import url('./__item/logo__item.css');
 
 .logo {
-    transition: 0.35s;
     width: 142.01px;
     height: 33.4px;
 }
 
-.logo:hover {
-    opacity: 0.6;
-}
