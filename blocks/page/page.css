@@ -1,0 +1,9 @@
+
+@import url('./__container/page__containr.css');
+
+.page {
+    background-color: black;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}

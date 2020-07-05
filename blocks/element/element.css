@@ -1,0 +1,21 @@
+
+@import url('./__bottombox/element__bottombox.css');
+@import url('./__title/element__title.css');
+@import url('./__like/element__like.css');
+
+.element {
+    width: 280px;
+    height: 360px;
+    
+
+    background-image: url('../../image/2020-07-04_19-09-33.png');
+    background-position: bottom;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    overflow: hidden;   
+}
