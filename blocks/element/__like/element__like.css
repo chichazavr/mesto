@@ -2,8 +2,11 @@
 
 
 .element__like {
-    margin-top: 31px;
-    margin-right: 22px;
+    margin-top: 5px;
+    margin-left: 26px;
+
+    background-image: url('../../../image/heart.svg');
+    background-repeat: no-repeat;
 
     height: 18.13px;
 

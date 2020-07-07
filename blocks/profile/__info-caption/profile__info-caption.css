@@ -6,4 +6,26 @@
 
     font-size: 18px;
     line-height: 22px;
+
+    
+}
+
+@media screen and (max-width: 720px) {
+    .profile__info-caption {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .profile__info-caption{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .profile__info-caption{
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

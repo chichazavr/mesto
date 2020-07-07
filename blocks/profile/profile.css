@@ -2,19 +2,28 @@
 @import url('./__box/profile__box.css');
 @import url('./__avatar/profile__avatar.css');
 @import url('./__info/profile__info.css');
+@import url('./__info-box/profile__info-box.css');
 @import url('./__info-name/profile__info-name.css');
 @import url('./__info-caption/profile__info-caption.css');
-@import url('./__edit-button/profile__edit-button.css');
+@import url('./__info-editbutton/profile__info-editbutton.css');
 @import url('./__add-button/profile__add-button.css');
 
 
 .profile {
     margin-top: 40px;
 
-    width: 882px;
-    height: 120px;
+    max-width: 882px;
+    min-height: 120px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+    .profile {
+
+        display: flex;
+        flex-direction: column;
+    }
 }

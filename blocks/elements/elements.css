@@ -9,3 +9,21 @@
     grid-row-gap: 18px;
     grid-column-gap: 21px;
 }
+
+@media screen and (max-width: 950px) {
+    .elements {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .elements {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 400x) {
+    .elements {
+        grid-column-gap: 20px;
+    }
+}

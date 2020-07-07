@@ -1,0 +1,15 @@
+
+
+
+.element__image {
+    width: auto;
+    max-height: 282px;
+
+    object-fit: cover;
+}   
+
+@media screen and (max-width: 950px) {
+    .element__image {
+        min-height: 400px;
+    }
+}
