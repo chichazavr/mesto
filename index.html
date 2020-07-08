@@ -15,37 +15,29 @@
 <div class="page__container">
 
     <header class="header">
-        <a href="#" class="logo button-opacity noneselector">
+        <a href="#" class="logo button-style noneselector">
             <img src="./image/logo_white.svg" alt="тут должен был быть логотип" class="logo__item"></a>
-
         <div class="header__line"></div>
     </header>
 
     <main class="content">
 
         <section class="profile">
-            <div class="profile__box">
-                <div class="profile__avatar"></div>
-
                 <div class="profile__info">
+                    <div class="profile__avatar"></div>
                     <div class="profile__info-box">
                         <h2 class="profile__info-name">Жак-Ив Кусто</h2>
-                        <div class="profile__info-editbutton"></div>
+                        <button class="profile__info-editbutton button-style profile__open-popup-editor"></button>
+                        <p class="profile__info-caption">Исследователь океана</p>
                     </div>
-                   
-
-                    <p class="profile__info-caption">Исследователь океана</p>
                 </div>
 
-
-            </div>
-
-            <div class="profile__add-button button-opacity"></div>
+                <button class="profile__add-button button-style"></button>
         </section>
 
         <section class="elements">
             <div class="element">
-                <img class="element__image" src="./image/pudong.jpg" alt="тут должен быть изображен пудун">
+                <img class="element__image noneselector" src="./image/pudong.jpg" alt="тут должен быть изображен пудун">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Вайтань</h3>
                     <div class="element__like noneselector"></div>
@@ -53,7 +45,7 @@
             </div>
 
             <div class="element">
-                <img class="element__image" src="./image/beijing.jpg" alt="тут должен быть изображен пекин">
+                <img class="element__image noneselector" src="./image/beijing.jpg" alt="тут должен быть изображен пекин">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Пекин</h3>
                     <div class="element__like noneselector"></div>
@@ -61,7 +53,7 @@
             </div>
 
             <div class="element">
-                <img class="element__image" src="./image/li.jpg" alt="тут должен быть изображен река ли">
+                <img class="element__image noneselector" src="./image/li.jpg" alt="тут должен быть изображен река ли">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Река Ли</h3>
                     <div class="element__like noneselector"></div>
@@ -69,7 +61,7 @@
             </div>
 
             <div class="element">
-                <img class="element__image" src="./image/army.jpg" alt="тут должен быть изображен армия">
+                <img class="element__image noneselector" src="./image/army.jpg" alt="тут должен быть изображен армия">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Армия в Сиане</h3>
                     <div class="element__like noneselector"></div>
@@ -77,7 +69,7 @@
             </div>
 
             <div class="element">
-                <img class="element__image" src="./image/potala.jpg" alt="тут должен быть изображен дворец потала">
+                <img class="element__image noneselector" src="./image/potala.jpg" alt="тут должен быть изображен дворец потала">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Дворец Потала</h3>
                     <div class="element__like noneselector"></div>
@@ -85,7 +77,7 @@
             </div>
 
             <div class="element">
-                <img class="element__image" src="./image/wall.jpg" alt="тут должен быть изображен стена">
+                <img class="element__image noneselector" src="./image/wall.jpg" alt="тут должен быть изображен стена">
                 <div class="element__bottombox content">
                     <h3 class="element__title">Великая Китайская стена</h3>
                     <div class="element__like noneselector"></div>
@@ -99,20 +91,21 @@
     </footer>
 </div>
 
-<div class="popup">
-    <div class="popup__container">
-        <h2 class="popup__title noneselector">Редактировать профиль</h2>
-        <input type="text" class="popup__item popup__name" placeholder="ваше имя" value="Жак-Ив Кусто">
-        <input type="text" class="popup__item popup__caption" placeholder="описание вашей деятельности" value="Исследователь океана">
-        <div class="popup__submit button-opacity">
-            <p class="popup__submit-text noneselector">Сохранить</p>
+<section class="popup">
+    <div class="popup__form">
+        <div class="popup__container">
+            <h2 class="popup__title noneselector">Редактировать профиль</h2>
+            <input type="text" class="popup__item popup__name" placeholder="ваше имя" value="Жак-Ив Кусто">
+            <input type="text" class="popup__item popup__caption" placeholder="описание вашей деятельности" value="Исследователь океана">
+            <button class="popup__submit button-style">
+                <p class="popup__submit-text noneselector">Сохранить</p>
+            </button>
+            <button class="popup__close popup__close-popup-editor button-style"></button>
         </div>
-        <div class="popup__close button-opacity"></div>
     </div>
     <div class="popup__overlay"></div>
-</div>
+</section>
 
 <script src="./scripts/script.js" ></script>
-
 </body>
 </html>

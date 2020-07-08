@@ -9,6 +9,7 @@
     border-radius: 2px;
     box-sizing: border-box;
 
+    background-color: black;
     background-image: url('../../../image/add.png');
     background-repeat: no-repeat;
     background-position: center;

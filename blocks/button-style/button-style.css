@@ -1,0 +1,14 @@
+
+
+
+.button-style {
+    transition: linear 0.35s;
+}
+
+.button-style:hover {
+    opacity: 0.65;
+}
+
+.button-style:active, .button-style:focus {
+    outline: none;
+}
