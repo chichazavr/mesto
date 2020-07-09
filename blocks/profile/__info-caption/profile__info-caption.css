@@ -28,5 +28,8 @@
     .profile__info-caption{
         font-size: 14px;
         line-height: 17px;
+
+        margin-top: -6px;
+        margin-left: 15px;
     }
 }

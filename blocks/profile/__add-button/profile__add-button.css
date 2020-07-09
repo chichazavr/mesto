@@ -13,6 +13,7 @@
     background-image: url('../../../image/add.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 16%;
 
     cursor: pointer;
 }
@@ -20,11 +21,13 @@
 @media screen and (max-width: 720px) {
     .profile__add-button {
         margin-top: 46px;
+        width: 275px;
+        background-size: 8%;
     }
 }
 
 @media screen and (max-width: 400px) {
     .profile__add-button {
-        margin-top: 36px;
+        margin-top: 32px;
     }
 }

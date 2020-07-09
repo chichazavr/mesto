@@ -9,6 +9,7 @@
     font-size: 42px;
     line-height: 56px;
     align-self: end;
+    
 }
 
 @media screen and (max-width: 720px) {
@@ -17,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 370px) {
     .profile__info-name {
         font-size: 27px;
     }

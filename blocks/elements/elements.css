@@ -22,8 +22,9 @@
     }
 }
 
-@media screen and (max-width: 400x) {
+@media screen and (max-width: 400px) {
     .elements {
         grid-column-gap: 20px;
+        margin-top: 31px;
     }
 }

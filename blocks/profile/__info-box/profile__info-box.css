@@ -7,3 +7,9 @@
     display: grid;
     grid-template-columns: 1fr 50px;
 }   
+
+@media screen and (max-width: 370px) {
+    .profile__info-box {
+        margin-left: 26px;
+    }
+}
