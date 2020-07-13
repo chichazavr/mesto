@@ -1,8 +1,8 @@
 
-@import url('./__bottombox/element__bottombox.css');
-@import url('./__title/element__title.css');
-@import url('./__like/element__like.css');
-@import url('./__image/element__image.css');
+@import url(./__bottombox/element__bottombox.css);
+@import url(./__title/element__title.css);
+@import url(./__like/element__like.css);
+@import url(./__image/element__image.css);
 
 .element {
    
@@ -19,17 +19,10 @@
     overflow: hidden;   
 }
 
-@media screen and (max-width: 950px) {
-    .element {
-        height: 460px;
-    }
-}
-
 @media screen and (max-width: 400px) {
     .element {
         margin: 0 auto;
         
         width: 282px;
-        height: 360px;
     }
 }

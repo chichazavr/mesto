@@ -1,9 +1,6 @@
 
 
 @import url('./__avatar/profile__avatar.css');
-@import url(./__avatar/profile__avatar.css);
-@import url(../../blocks/profile/__avatar/profile__avatar.css);
-
 @import url('./__info/profile__info.css');
 @import url('./__info-box/profile__info-box.css');
 @import url('./__info-name/profile__info-name.css');
@@ -16,7 +13,6 @@
     margin-top: 40px;
 
     max-width: 882px;
-    min-height: 120px;
 
     display: flex;
     align-items: center;

@@ -1,6 +1,4 @@
 
-console.log('скрипт подключен');
-
 
 const profileInfo = document.querySelector('.profile__info');
 const editButton = profileInfo.querySelector('.profile__open-popup-editor');
@@ -19,12 +17,10 @@ const overlay = popup.querySelector('.popup__overlay')
 
 function popupOpen() {
   popup.classList.add('popup_opened')
-  console.log('попап открыт');
 }
 
 function popupClose() {
   popup.classList.remove('popup_opened')
-  console.log('попап закрыт');
 }
 
 function popupBio(userName, userCaption) {
@@ -42,11 +38,6 @@ function formSubmitHandler(evt) {
 
   profileName.textContent = nameInput.value;
   profileCaption.textContent = captionInput.value;
-
-  console.log("formSubmitHandler " + nameInput.value)
-  console.log("formSubmitHandler " + captionInput.value)
-  console.log("formSubmitHandler " + profileName.textContent)
-  console.log("formSubmitHandler " + profileCaption.textContent)
 
   popupClose();
 }
