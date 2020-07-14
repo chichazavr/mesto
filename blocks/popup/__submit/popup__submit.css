@@ -10,7 +10,24 @@
 
     background-color: black;
     border: none;
+    border-radius: 2px;
     
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
 
     cursor: pointer;
+
+    transition: linear 0.35s;
+}
+
+@media screen and (max-width: 520px) {
+    .popup__submit {
+        width: 206px;
+    }
+}
+
+.popup__submit:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }

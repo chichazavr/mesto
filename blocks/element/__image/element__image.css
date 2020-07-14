@@ -3,15 +3,10 @@
 
 .element__image {
     width: auto;
-    max-height: 282px;
+    max-height: 288px;
 
     object-fit: cover;
 
     color: white;
 }   
 
-@media screen and (max-width: 950px) {
-    .element__image {
-        min-height: 400px;
-    }
-}

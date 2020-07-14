@@ -1,51 +1,53 @@
 
-
-const profileInfo = document.querySelector('.profile__info');
-const editButton = profileInfo.querySelector('.profile__open-popup-editor');
-const profileName = profileInfo.querySelector('.profile__name');
-const profileCaption = profileInfo.querySelector('.profile__caption');
-
-
+//элементы popup
 const popup = document.querySelector('.popup');
-const closeButton = popup.querySelector('.popup__close-popup-editor');
+// // форма popup
 const formElement = popup.querySelector('.popup__form');
 const nameInput = popup.querySelector('.popup__name')
 const captionInput = popup.querySelector('.popup__caption')
+
+//элементы profile
+const profileInfo = document.querySelector('.profile__info');
+const profileName = profileInfo.querySelector('.profile__info-name');
+const profileCaption = profileInfo.querySelector('.profile__info-caption');
+
+//подъехали кнопки
+const editButton = profileInfo.querySelector('.profile__info-editbutton');
+const closeButton = popup.querySelector('.popup__close-popup-editor');
 const overlay = popup.querySelector('.popup__overlay')
 
 
-
+//открытие окна
 function popupOpen() {
-  popup.classList.add('popup_opened')
+    popup.classList.add("popup_opened");
+
+    //переменные
+    let name = profileName.textContent
+    let caption = profileCaption.textContent
+    
+    nameInput.value = name;
+    captionInput.value = caption;   
+
 }
 
+//закрытие окна
 function popupClose() {
-  popup.classList.remove('popup_opened')
+    popup.classList.remove("popup_opened");
 }
 
-function popupBio(userName, userCaption) {
-  nameInput.value = userName;
-  captionInput.value = userCaption;
-
-  console.log("popupBio " + userName)
-  console.log("popupBio " + userCaption)
-
-  popupOpen();
-}
-
+//не понял что это, но это надо
 function formSubmitHandler(evt) {
-  evt.preventDefault();
+    evt.preventDefault();
 
-  profileName.textContent = nameInput.value;
-  profileCaption.textContent = captionInput.value;
+    profileName.textContent = nameInput.value
+    profileCaption.textContent = captionInput.value
 
-  popupClose();
+    popupClose()
 }
 
 
-editButton.addEventListener('click', () => popupBio(profileName.textContent, profileCaption.textContent));
-
-closeButton.addEventListener('click', () => popupClose());
-overlay.addEventListener('click', () => popupClose());
-
+//исполнение функции
+overlay.addEventListener('click', popupClose);
+closeButton.addEventListener('click', popupClose);
+editButton.addEventListener('click', popupOpen);
 formElement.addEventListener('submit', formSubmitHandler);

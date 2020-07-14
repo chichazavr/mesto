@@ -19,13 +19,11 @@
     background-size: 52%;
     
     cursor: pointer;
+
+    transition: linear 0.35s;
 }
 
-@media screen and (max-width: 720px) {
-    .profile__info-editbutton {
-        margin-bottom: -5px;
-    }
-}
+
 
 @media screen and (max-width: 492px) {
     .profile__info-editbutton {
@@ -40,5 +38,9 @@
 
         margin-left: 12px;
     }
+}
+
+.profile__info-editbutton:hover {
+    opacity: 0.6;
 }
 

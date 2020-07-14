@@ -3,7 +3,7 @@
 
 .element__bottombox {
 
-    padding: 25px 0 0 21px;
+    padding: 25px 21px 21px 31px;
     
     display: grid;
     grid-template-columns: 74% 20%;

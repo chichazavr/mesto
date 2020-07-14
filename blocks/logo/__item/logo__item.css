@@ -6,6 +6,8 @@
 
     width: 142.01px;
     height: 33.4px;
+
+    transition: linear 0.35s;
 }
 
 @media screen and (max-width: 400px) {
@@ -14,4 +16,8 @@
         width: 103.74px;
         height: 24.4px;
     }
+}
+
+.logo__item:hover {
+    opacity: 0.6;
 }

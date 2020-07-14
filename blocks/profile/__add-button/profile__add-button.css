@@ -16,6 +16,8 @@
     background-size: 16%;
 
     cursor: pointer;
+
+    transition: linear 0.35s;
 }
 
 @media screen and (max-width: 720px) {
@@ -30,4 +32,8 @@
     .profile__add-button {
         margin-top: 32px;
     }
+}
+
+.profile__add-button:hover {
+    opacity: 0.6;
 }

@@ -7,8 +7,18 @@
 
     background-image: url('../../../image/heart.svg');
     background-repeat: no-repeat;
+    background-color: transparent;
+
+    border: none;
 
     height: 18.13px;
 
     cursor: pointer;
+
+    transition: linear 0.35s;
 }
+
+.element__like:hover {
+    opacity: 0.4;
+}
+

@@ -16,4 +16,23 @@
     border: none;
 
     cursor: pointer;
+
+    transition: linear 0.35s;
+
+}
+
+@media screen and (max-width: 520px) {
+    .popup__close {
+        top: 9px;
+        right: 9px;
+        background-color: black;
+        overflow: auto;
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+    }
+}
+
+.popup__close:hover {
+    opacity: 0.6;
 }
