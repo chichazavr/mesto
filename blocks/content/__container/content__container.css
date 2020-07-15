@@ -1,23 +1,23 @@
 
 
 
-.page__container {
+.content__container {
     margin: 0 auto;
-    padding: 45px 0 60px;
+    padding: 0 0 60px;
     
     max-width: 882px;
     min-width: 200px;
 }
 
 @media screen and (max-width: 950px) {
-    .page__container {
-        padding: 45px 21px 60px;;
+    .content__container {
+        padding: 0 21px 60px;;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .page__container {
-        padding: 28px 19px 36px;;
+    .content__container {
+        padding: 0 19px 36px;;
     }
 }
 

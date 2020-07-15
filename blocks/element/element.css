@@ -1,12 +1,11 @@
 
-@import url(./__bottombox/element__bottombox.css);
+@import url(./__body/element__body.css);
 @import url(./__title/element__title.css);
 @import url(./__like/element__like.css);
 @import url(./__image/element__image.css);
 
 .element {
     width: auto;
-    height: 360px;
 
     border-radius: 10px;
 

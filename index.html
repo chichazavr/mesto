@@ -12,18 +12,16 @@
 
 <body class="page">
 
-<div class="page__container">
-
-    <header class="header">
+    <header class="header header__container">
         <a href="#" class="logo button-style noneselector">
             <img src="./image/logo_white.svg" alt="тут должен был быть логотип" class="logo__item"></a>
     </header>
-
-    <main class="content">
+    
+    <main class="content content__container ">
 
         <section class="profile">
                 <div class="profile__info">
-                    <div style="background-image: url('../../../image/avatar.jpg')" class="profile__avatar"></div>
+                    <div class="profile__avatar" style="background-image: url(../../../image/jak.jpg);" ></div>
                     <div class="profile__info-box">
                         <h1 class="profile__info-name">Жак-Ив Кусто</h1>
                         <button type="button" class="profile__info-editbutton button-style"></button>
@@ -37,7 +35,7 @@
         <section class="elements">
             <div class="element">
                 <img class="element__image noneselector" src="./image/pudong.jpg" alt="тут должен быть изображен пудун">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Вайтань</h3>
                     <button type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -45,7 +43,7 @@
 
             <div class="element">
                 <img class="element__image noneselector" src="./image/beijing.jpg" alt="тут должен быть изображен пекин">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Пекин</h3>
                     <button type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -53,7 +51,7 @@
 
             <div class="element">
                 <img class="element__image noneselector" src="./image/li.jpg" alt="тут должен быть изображен река ли">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Река Ли</h3>
                     <button type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -61,7 +59,7 @@
 
             <div class="element">
                 <img class="element__image noneselector" src="./image/army.jpg" alt="тут должен быть изображен армия">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Армия в Сиане</h3>
                     <button type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -69,7 +67,7 @@
 
             <div class="element">
                 <img class="element__image noneselector" src="./image/potala.jpg" alt="тут должен быть изображен дворец потала">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Дворец Потала</h3>
                     <button  type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -77,7 +75,7 @@
 
             <div class="element">
                 <img class="element__image noneselector" src="./image/wall.jpg" alt="тут должен быть изображен стена">
-                <div class="element__bottombox content">
+                <div class="element__body content">
                     <h3 class="element__title">Великая Китайская стена</h3>
                     <button type="button" class="element__like noneselector button-style"></button>
                 </div>
@@ -88,7 +86,6 @@
     <footer class="footer">
         <h3 class="footer__copyright noneselector">&#169; 2020 Mesto Russia</h3>
     </footer>
-</div>
 
 <section class="popup">
     <form name="popup" action="#" method="get" class="popup__form" >
