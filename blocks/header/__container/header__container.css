@@ -3,7 +3,7 @@
 
 .header__container {
     margin: 0 auto;
-    
+    padding-top: 45px;
     max-width: 882px;
     min-width: 200px;
 }

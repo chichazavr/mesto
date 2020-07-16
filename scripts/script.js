@@ -3,8 +3,8 @@
 const popup = document.querySelector('.popup');
 // // форма popup
 const formElement = popup.querySelector('.popup__form');
-const nameInput = popup.querySelector('.popup__name')
-const captionInput = popup.querySelector('.popup__caption')
+const nameInput = popup.querySelector('.popup__item_name')
+const captionInput = popup.querySelector('.popup__item_caption')
 
 //элементы profile
 const profileInfo = document.querySelector('.profile__info');
@@ -13,7 +13,7 @@ const profileCaption = profileInfo.querySelector('.profile__info-caption');
 
 //подъехали кнопки
 const editButton = profileInfo.querySelector('.profile__info-editbutton');
-const closeButton = popup.querySelector('.popup__close-popup-editor');
+const closeButton = popup.querySelector('.popup__close');
 const overlay = popup.querySelector('.popup__overlay')
 
 
