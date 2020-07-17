@@ -1,21 +1,18 @@
 
 
 
-.header__container {
-    margin: 0 auto;
+.container_header {
     padding-top: 45px;
-    max-width: 882px;
-    min-width: 200px;
 }
 
 @media screen and (max-width: 950px) {
-    .header__container {
+    .container_header {
         padding: 45px 21px 0px;;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .header__container {
+    .container_header {
         padding: 28px 19px 0px;;
     }
 }

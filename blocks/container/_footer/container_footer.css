@@ -1,0 +1,18 @@
+
+
+
+.container_footer {
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 950px) {
+    .container_footer {
+        padding: 0 21px 60px;;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container_footer {
+        padding: 0 19px 36px;;
+    }
+}

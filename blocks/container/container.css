@@ -1,0 +1,11 @@
+
+@import url(./_header/container_header.css);
+@import url(./_content/container_content.css);
+@import url(./_footer/container_footer.css);
+
+
+.container {
+    margin: 0 auto;
+    max-width: 882px;
+    min-width: 200px;
+}

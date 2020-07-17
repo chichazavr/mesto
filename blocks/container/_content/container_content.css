@@ -1,22 +1,18 @@
 
 
 
-.content__container {
-    margin: 0 auto;
-    
-    max-width: 882px;
-    min-width: 200px;
+.container_content {
+
 }
 
 @media screen and (max-width: 950px) {
-    .content__container {
+    .container_content {
         padding: 0 21px 0px;;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .content__container {
+    .container_content {
         padding: 0 19px 0;
     }
 }
-

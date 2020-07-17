@@ -3,8 +3,6 @@
 
 @import url('./__overlay/popup__overlay.css');
 @import url('./__form/popup__form.css');
-@import url('./__name/popup__name.css');
-@import url('./__caption/popup__caption.css');
 @import url('./__title/popup__title.css');
 @import url('./__item/_name/popup__item_name.css');
 @import url('./__item/_caption/popup__item_caption.css');
